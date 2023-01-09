@@ -3,6 +3,7 @@ import { IngredientsList } from "../../../components/ingredients-list/ingredient
 import { recipesVeggilaine } from "../../../data/recipes-veggilaine";
 import { getPlaiceholder } from "plaiceholder";
 import React from "react";
+import { PageWrapper } from "../../../components/page-wrapper";
 
 interface Props {
   params: {
@@ -32,7 +33,7 @@ export default async function Page({ params }: Props) {
   const imagePlaceholder = await getImagePlaceholder(recipe.image);
 
   return (
-    <div>
+    <PageWrapper className="h-screenHeightWithoutHeader">
       <div className="w-full h-[200px]">
         <Image
           src={recipe.image}
@@ -56,6 +57,6 @@ export default async function Page({ params }: Props) {
           ))}
         </p>
       </div>
-    </div>
+    </PageWrapper>
   );
 }

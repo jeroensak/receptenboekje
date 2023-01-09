@@ -8,7 +8,7 @@ import { Recipe } from "../../data/recipes-veggilaine";
 
 export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
   return (
-    <Disclosure>
+    <Disclosure defaultOpen>
       {({ open }) => (
         <>
           <Disclosure.Button
