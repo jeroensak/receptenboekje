@@ -4,6 +4,7 @@ import { recipesVeggilaine } from "../../../data/recipes-veggilaine";
 import { getPlaiceholder } from "plaiceholder";
 import React from "react";
 import { PageWrapper } from "../../../components/page-wrapper";
+import { WakeLock } from "../../../components/wake-lock";
 
 interface Props {
   params: {
@@ -48,6 +49,7 @@ export default async function Page({ params }: Props) {
       <div className="p-4">
         <h1 className="text-3xl">{recipe.title}</h1>
         <IngredientsList recipe={recipe} />
+        <WakeLock />
         <p>
           {recipe.description.split(/\r?\n/).map((text, index) => (
             <React.Fragment key={index}>
