@@ -132,4 +132,77 @@ export const recipesVeggilaine: Recipe[] = [
     description: `Kook de pasta en bewaar voor je deze afgiet een kopje van het pastawater. Snijd de sjalotjes fijn en bak deze in de roomboter tot ze glazig zijn. Voeg de knoflook toe en bak 2 minuten. Rasp ondertussen de courgette met een grove rasp of keukenmachine en voeg ook dit toe aan de pan. Bak het geheel tot alle vocht is verdampt. Voeg vervolgens de parmagiano, citroensap, rasp, chilivlokken en het pastawater toe en roer goed door. Laat het geheel op laag vuur sudderen voor 8-10 minuten en voeg eventueel nog wat boter of water toe. Meng vervolgens de pasta met de gebakken courgette en serveer dit met verse basilicum, parmagiano, pistachenoten en wat semi gedroogde zontomaatjes. Eet smakelijk! 🌞`,
     link: "https://www.instagram.com/reel/CgPVSsZKPpE/",
   },
+  {
+    slug: "pinchofyum-buffalo-cauliflower-tacos-avocado-crema",
+    title: "Buffalo Cauliflower Tacos with Avocado Crema",
+    creator: "pinch of yum",
+    image: "/images/buffalo-cauliflower-tacos.jpeg",
+    feeds: 4,
+    ingredients: [
+      [
+        [1, "cup flour"],
+        [1, "cup milk"],
+        [1 / 4, "teaspoon each garlic powder, salt, and pepper"],
+        [1, "head cauliflower (4-5 cups florets)"],
+        [3 / 4, "cup hot sauce (I used Frank's brand)"],
+        ["shredded cabbage or slaw"],
+        ["chopped fresh cilantro"],
+        ["tortillas"],
+      ],
+      [
+        "Avocado crema",
+        [2, "avocados"],
+        [1, "clove garlic"],
+        [1 / 4, "cup sour cream (yogurt would work, too)"],
+        [1 / 4, "cup water"],
+        [1 / 2, "teaspoon salt"],
+        ["squeeze of lemon or lime"],
+      ],
+    ],
+    description: `Batter the cauliflower: Preheat oven to 450f (230c) degrees. Whisk flour, milk, salt, pepper, and garlic powder. Dip cauliflower pieces in the batter and let excess drip off. Place on parchment-lined baking sheet. Bake on an upper rack for 15-20 minutes until lightly crisped and browned.
+    Spice the cauliflower: Gently toss the baked cauliflower in a bowl with the hot sauce. Return to pan. Bake for another 5-10 minutes.
+    Avocado Crema: Mix all ingredients in a food processor or blender until smooth.
+    Slaw: Toss the slaw with some of the avocado crema until it's nice and creamy.
+    Tacos: Fill each tortilla with slaw, cauliflower, a drizzle of avocado crema, and cilantro. Perfection!
+    `,
+    link: "https://pinchofyum.com/buffalo-cauliflower-tacos-avocado-crema",
+  },
+  {
+    slug: "feastingathome-lo-mein",
+    title: "Veggie Lo Mein noodles",
+    creator: "feasting at home",
+    image: "/images/lo-mein.jpg",
+    feeds: 4,
+    ingredients: [
+      [
+        ['mushrooms'],
+        ['shredded cabbage'],
+        ['carrots'],
+        ['snow peas'],
+        ['bell pepper'],
+        ['green onions'],
+        ['in spring, try asparagus'],
+        ['any other vegetable you feel like chopping up or want to use up'],
+        ['crispy tofu']
+      ],
+      [
+        'Lo Mein Sauce',
+        ['soy sauce'],
+        ['sesame oil'],
+        ['Chinese Cooking Wine or Mirin'],
+        ['maple syrup, honey or sugar'],
+        ['sriracha'],
+        ['white pepper'],
+        ['optional oyster sauce'],
+      ],
+    ],
+    description: `Step One: Whisk together the Lo Mein Sauce.
+    Step Two: Cook the noodles!
+    Step Three: Bring everything near the stove and begin by stirfrying the veggies.
+    Step Four: Once the veggies are tender, yet crisp, add the noodles.
+    Step Five: Pour in the flavorful Lo Mein Sauce and toss and stir, for two minutes! If adding tofu or meat, add it in now ( you will have already cooked it- see recipe notes).
+    Step Six: Serve immediately! Divide among bowls and top with green onions.
+    `,
+    link: "https://www.feastingathome.com/lo-mein/",
+  },
 ];
