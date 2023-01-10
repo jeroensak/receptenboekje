@@ -1,16 +1,16 @@
 "use client";
 
-import React from "react";
+import { useState, useEffect } from "react";
 import { Recipe, recipesVeggilaine } from "../data/recipes-veggilaine";
 
 export default function HomePage() {
-  const [recipe, setRecipe] = React.useState<Recipe>(
+  const [recipe, setRecipe] = useState<Recipe>(
     recipesVeggilaine[
       Math.round(Math.random() * (recipesVeggilaine.length - 1))
     ]
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     const i = setInterval(() => {
       const index = Math.round(Math.random() * (recipesVeggilaine.length - 1));
       setRecipe(recipesVeggilaine[index]);

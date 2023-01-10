@@ -5,6 +5,7 @@ import { getPlaiceholder } from "plaiceholder";
 import React from "react";
 import { PageWrapper } from "../../../components/page-wrapper";
 import { WakeLock } from "../../../components/wake-lock";
+import { BsLink } from "react-icons/bs";
 
 interface Props {
   params: {
@@ -48,6 +49,14 @@ export default async function Page({ params }: Props) {
       </div>
       <div className="p-4">
         <h1 className="text-3xl">{recipe.title}</h1>
+        <a
+          href={recipe.link}
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-2 text-green-800 underline mb-3"
+        >
+          <BsLink width={20} /> {recipe.creator}
+        </a>
         <IngredientsList recipe={recipe} />
         <WakeLock />
         <p>
