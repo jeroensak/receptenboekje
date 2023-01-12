@@ -24,7 +24,7 @@ export const WakeLock = () => {
     } else wakeLock.current?.release?.();
   }, [enabled]);
 
-  // if (!wakeLockSupported) return null;
+  if (!wakeLockSupported) return null;
 
   return (
     <div className="flex items-center justify-between p-2 my-6 bg-gray-200 rounded-md">
