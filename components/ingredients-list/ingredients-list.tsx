@@ -4,7 +4,7 @@ import { Disclosure, Transition } from "@headlessui/react";
 import classNames from "classnames";
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
-import { Recipe } from "../../data/recipes-veggilaine";
+import { Recipe } from "../../data/recipes";
 
 export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
   return (

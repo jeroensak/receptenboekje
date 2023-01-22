@@ -1,19 +1,19 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Recipe, recipesVeggilaine } from "../data/recipes-veggilaine";
+import { Recipe, recipes } from "../data/recipes";
 
 export default function HomePage() {
   const [recipe, setRecipe] = useState<Recipe>(
-    recipesVeggilaine[
-      Math.round(Math.random() * (recipesVeggilaine.length - 1))
+    recipes[
+      Math.round(Math.random() * (recipes.length - 1))
     ]
   );
 
   useEffect(() => {
     const i = setInterval(() => {
-      const index = Math.round(Math.random() * (recipesVeggilaine.length - 1));
-      setRecipe(recipesVeggilaine[index]);
+      const index = Math.round(Math.random() * (recipes.length - 1));
+      setRecipe(recipes[index]);
     }, 5000);
 
     return () => clearInterval(i);

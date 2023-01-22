@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { IngredientsList } from "../../../components/ingredients-list/ingredients-list";
-import { recipesVeggilaine } from "../../../data/recipes-veggilaine";
+import { recipes } from "../../../data/recipes";
 import { getPlaiceholder } from "plaiceholder";
 import React from "react";
 import { PageWrapper } from "../../../components/page-wrapper";
@@ -14,7 +14,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return recipesVeggilaine.map((recipe) => ({
+  return recipes.map((recipe) => ({
     slug: recipe.slug,
   }));
 }
@@ -28,7 +28,7 @@ const getImagePlaceholder = (path: string) => {
 };
 
 export default async function Page({ params }: Props) {
-  const recipe = recipesVeggilaine.find((a) => a.slug === params.slug);
+  const recipe = recipes.find((a) => a.slug === params.slug);
 
   if (!recipe) return <div>Reseppi nie gevonde</div>;
 

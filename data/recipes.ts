@@ -9,7 +9,7 @@ export interface Recipe {
   link: string;
 }
 
-export const recipesVeggilaine: Recipe[] = [
+export const recipes: Recipe[] = [
   {
     slug: "veggilaine-bibimbap",
     title: "Bibimbap",
@@ -175,25 +175,25 @@ export const recipesVeggilaine: Recipe[] = [
     feeds: 4,
     ingredients: [
       [
-        ['mushrooms'],
-        ['shredded cabbage'],
-        ['carrots'],
-        ['snow peas'],
-        ['bell pepper'],
-        ['green onions'],
-        ['in spring, try asparagus'],
-        ['any other vegetable you feel like chopping up or want to use up'],
-        ['crispy tofu']
+        ["mushrooms"],
+        ["shredded cabbage"],
+        ["carrots"],
+        ["snow peas"],
+        ["bell pepper"],
+        ["green onions"],
+        ["in spring, try asparagus"],
+        ["any other vegetable you feel like chopping up or want to use up"],
+        ["crispy tofu"],
       ],
       [
-        'Lo Mein Sauce',
-        ['soy sauce'],
-        ['sesame oil'],
-        ['Chinese Cooking Wine or Mirin'],
-        ['maple syrup, honey or sugar'],
-        ['sriracha'],
-        ['white pepper'],
-        ['optional oyster sauce'],
+        "Lo Mein Sauce",
+        ["soy sauce"],
+        ["sesame oil"],
+        ["Chinese Cooking Wine or Mirin"],
+        ["maple syrup, honey or sugar"],
+        ["sriracha"],
+        ["white pepper"],
+        ["optional oyster sauce"],
       ],
     ],
     description: `Step One: Whisk together the Lo Mein Sauce.
@@ -204,5 +204,34 @@ export const recipesVeggilaine: Recipe[] = [
     Step Six: Serve immediately! Divide among bowls and top with green onions.
     `,
     link: "https://www.feastingathome.com/lo-mein/",
+  },
+  {
+    slug: "veggilaine-plaattaart",
+    title: "Plaattaart (prei, pompoen, spruitjes, feta)",
+    creator: "Veggilaine",
+    image: "/images/veggilaine-plaattaart.jpeg",
+    feeds: 2,
+    ingredients: [
+      [
+        [1, "rol bladerdeeg"],
+        [1, "prei"],
+        [200, "g geschoonde spruitjes"],
+        [0.25, "flespompoen"],
+        [2.5, "el extra vierge olijfolie"],
+        [2, "el honing"],
+        [1, "teen knoflook"],
+        [3, "el (vegan) crème fraîche"],
+        [2, "el grove mosterd"],
+        [1, "el kerriepoeder"],
+        [1, "tl kaneel"],
+        ["peper en zout"],
+        [150, "g feta"],
+        ["balsamico crema"],
+        [50, "g pecannoten"],
+        [1, "el plantaardige melk"],
+      ],
+    ],
+    description: `Verwarm de oven voor op 200 graden. Bedek een bakplaat met bakpapier en laat hier de bladerdeeg op ontdooien. Meng ondertussen de crème fraîche met de fijngehakte knoflook + wat peper en zout. Bestrijk hier het bladerdeeg mee behalve de randen. Snijd de pompoen in dunne plakjes met een mandoline en kook deze kort (5 minuten). Laat afkoelen en bedek de plaattaart vervolgens met de plakjes pompoen. Besprenkel met kaneel en wat olijfolie. Snijd vervolgens de prei fijn en de spruitjes door de helft. Was beide goed met koud water. Meng de prei en spruiten met de mosterd, olijfolie, kerrie en wat peper en zout. Verdeel over de plaattaart. Verbrokkel tot slot de feta en pecannoten over de taart. Drizzle tot slot de honing over de taart en bestrijk de rand met de plantaardige melk. Bak voor 30-35 minuten. Top af met balsamico crema. Eet smakelijk!`,
+    link: "https://www.instagram.com/p/Ck6GRE2KuID",
   },
 ];

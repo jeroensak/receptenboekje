@@ -4,12 +4,12 @@ import classNames from "classnames";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
-import { recipesVeggilaine } from "../../data/recipes-veggilaine";
+import { recipes } from "../../data/recipes";
 import { Popover, Transition } from "@headlessui/react";
 import { BsChevronDown } from "react-icons/bs";
 
 export const Navigation = () => {
-  const items = recipesVeggilaine
+  const items = recipes
     .map((recipe) => ({
       label: recipe.title,
       slug: recipe.slug,
