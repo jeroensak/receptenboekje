@@ -234,4 +234,40 @@ export const recipes: Recipe[] = [
     description: `Verwarm de oven voor op 200 graden. Bedek een bakplaat met bakpapier en laat hier de bladerdeeg op ontdooien. Meng ondertussen de crème fraîche met de fijngehakte knoflook + wat peper en zout. Bestrijk hier het bladerdeeg mee behalve de randen. Snijd de pompoen in dunne plakjes met een mandoline en kook deze kort (5 minuten). Laat afkoelen en bedek de plaattaart vervolgens met de plakjes pompoen. Besprenkel met kaneel en wat olijfolie. Snijd vervolgens de prei fijn en de spruitjes door de helft. Was beide goed met koud water. Meng de prei en spruiten met de mosterd, olijfolie, kerrie en wat peper en zout. Verdeel over de plaattaart. Verbrokkel tot slot de feta en pecannoten over de taart. Drizzle tot slot de honing over de taart en bestrijk de rand met de plantaardige melk. Bak voor 30-35 minuten. Top af met balsamico crema. Eet smakelijk!`,
     link: "https://www.instagram.com/p/Ck6GRE2KuID",
   },
+  {
+    slug: "damndelicious-greek-quesadillas",
+    title: "Griekse Quesadillas",
+    creator: "Damn Delicious",
+    image: "/images/greek-quesadillas.jpeg",
+    feeds: 4,
+    ingredients: [
+      [
+        [8, "grote tortillas"],
+        [400, "g spinazie"],
+        [0.5, "cup zon gedroogde tomaten"],
+        [0.5, "cup kalamata olijven"],
+        [1, "cup mozzarella"],
+        [1, "cup feta"],
+        [1, "el verse dille"],
+      ],
+      [
+        "Tzatziki saus",
+        [1, "cup griekse yoghurt"],
+        [1, "komkommer"],
+        [2, "teentjes knoflook"],
+        [1, "el verse dille"],
+        [1, "el citroensap"],
+        [1, "tl citroenraps"],
+        ["zout en peper"],
+        [2, "el olijfolie"],
+        [1, "tl verse munt (optioneel)"],
+      ],
+    ],
+    description: `
+      Maak de saus. Snijdt de komkommer, knoflook, dille en munt fijn. Meng met de overige ingredienten en zet koud.
+
+      Vul en vouw de quesadillas en bak ze in de oven of pan tot de kaas gesmolten is.
+    `,
+    link: "https://damndelicious.net/2016/07/23/greek-quesadillas/",
+  },
 ];
