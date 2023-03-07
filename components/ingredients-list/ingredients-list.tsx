@@ -95,7 +95,7 @@ const AdjustPersonCountInput = ({
       <input
         type="number"
         min={0}
-        className="w-8 border border-gray-300 shadow-sm py-1 text-center"
+        className="w-8 border border-gray-300 py-1 text-center rounded-none"
         value={value}
         onChange={(e) => {
           setValue(parseInt(e.target.value));
