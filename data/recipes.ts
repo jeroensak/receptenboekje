@@ -115,7 +115,7 @@ export const recipes: Recipe[] = [
         [1, "cup flour"],
         [1, "cup milk"],
         [1 / 4, "teaspoon each garlic powder, salt, and pepper"],
-        [1, "head cauliflower (4-5 cups florets)"],
+        [1, "head cauliflower"],
         [1 / 2, "cup hot sauce (I used Frank's brand)"],
         ["shredded cabbage or slaw"],
         ["chopped fresh cilantro"],

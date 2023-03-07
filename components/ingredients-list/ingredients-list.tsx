@@ -7,6 +7,8 @@ import { BsChevronDown } from "react-icons/bs";
 import { Recipe } from "../../data/recipes";
 
 export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
+  const [feeds, setFeeds] = React.useState(recipe.feeds);
+
   return (
     <Disclosure defaultOpen>
       {({ open }) => (
@@ -17,7 +19,8 @@ export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
             )}
           >
             <span>
-              Ingrediënten voor {recipe.feeds}{" "}
+              Ingrediënten voor{" "}
+              <AdjustPersonCountInput value={feeds} setValue={setFeeds} />{" "}
               {recipe.feeds === 1 ? "persoon" : "personen"}
             </span>
             <BsChevronDown
@@ -46,7 +49,9 @@ export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
                         ingredient.length === 1 ? (
                           ingredient[0]
                         ) : (
-                          `${ingredient[0]} ${ingredient[1]}`
+                          `${(ingredient[0] / recipe.feeds) * feeds} ${
+                            ingredient[1]
+                          }`
                         )
                       ) : (
                         <b>{ingredient}</b>
@@ -60,5 +65,51 @@ export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
         </>
       )}
     </Disclosure>
+  );
+};
+
+const AdjustPersonCountInput = ({
+  value,
+  setValue,
+}: {
+  value: number;
+  setValue: (v: number) => void;
+}) => {
+  const addPerson = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setValue(value + 1);
+  };
+  const subtractPerson = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (value > 0) setValue(value - 1);
+  };
+
+  return (
+    <div className="inline-flex items-stretch justify-center">
+      <div
+        onClick={subtractPerson}
+        className="border-gray-300 px-2 ml-1 border border-r-0 rounded-l-md flex items-center hoverfocus:bg-gray-200"
+      >
+        -
+      </div>
+      <input
+        type="number"
+        min={0}
+        className="w-8 border border-gray-300 shadow-sm py-1 text-center"
+        value={value}
+        onChange={(e) => {
+          setValue(parseInt(e.target.value));
+        }}
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+      />
+      <div
+        onClick={addPerson}
+        className="border-gray-300 px-2 mr-1 border border-l-0 rounded-r-md flex items-center hoverfocus:bg-gray-200"
+      >
+        +
+      </div>
+    </div>
   );
 };
