@@ -75,8 +75,10 @@ export const recipes: Recipe[] = [
       [
         ["paratha's uit de diepvries"],
         [300, "g oesterzwammen"],
+        ["of"],
+        [160, "g shoarma"],
         [1, "prei"],
-        [1, "el kerrie (masala)"],
+        [0.5, "el kerrie (of kerrie masala of helft helft)"],
         [1, "el donkere sojasaus"],
         ["verse granaatappel"],
       ],
@@ -84,15 +86,15 @@ export const recipes: Recipe[] = [
         "Avocadospread",
         [160, "g diepvries doperweten"],
         [1, "rijpe avocado"],
-        [0.5, "el kerrie (masala)"],
+        [1, "tl kerrie"],
         [0.5, "tl cayennepeper"],
         [1, "el limoensap"],
         ["zout naar smaak"],
       ],
       [
         "Limoen-peterselie dressing",
-        [1, "teentje knoflook"],
-        [15, "g verse peterselie"],
+        [1, "tiny teentje knoflook"],
+        [7.5, "g verse peterselie (de blaadjes van een half pakje)"],
         [3, "el (plantaardige) créme fraîche"],
         [1.5, "el limoensap"],
         [0.5, "tl zout"],
@@ -100,7 +102,7 @@ export const recipes: Recipe[] = [
     ],
     description: `De paratha bak je in een pan op hoog vuur aan beide zijden. Geen olie nodig. Puffy paratha = succes. Verhit hierna olie in een pan en scheur de oesterzwam in hapklare stukjes. Bak de oesterzwam voor 3-4 minuten en voeg vervolgens de fijngesneden en gewassen prei toe. Bak voor 4 min en haal de pan van het vuur. Voeg nu de soja en kerrie toe en roer goed door. Serveer de paratha met doperwt-spread, de oesterzwam en top het af met de dressing en granaatappel!
     Avocadospread: Kook de doperwten kort en prak deze samen met de rest van de ingrediënten tot een geheel.
-    Dressing: Voor het maken van de dressing gebruikte ik een keukenmachine. Geen blender? Snijd de koriander en knoflook dan heel fijn voor het mengen.
+    Dressing: Voor het maken van de dressing gebruikte ik een keukenmachine. Geen blender? Snijd de peterselie en knoflook dan heel fijn voor het mengen.
     `,
     link: "https://www.instagram.com/reel/CeiCl_UKyMk",
   },
