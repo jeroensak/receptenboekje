@@ -48,14 +48,14 @@ export const recipes: Recipe[] = [
     ingredients: [
       [
         [4, "(versgebakken) pitabroodjes or naan flappen"],
-        ["blikje gepelde (cherry) tomaten"],
-        ["hand vol kleine tomaatjes"],
+        [1, "blikje gepelde (cherry) tomaten"],
+        [1, "hand vol kleine tomaatjes"],
         [3, "teentjes knoflook"],
         ["extra virgine olijfolie"],
         ["zout + peper"],
         [1, "aubergine"],
         [1, "tl chilivlokken"],
-        ["feta"],
+        [125, "g feta"],
         ["kappertjes"],
         ["pecorino of parmagiano (gerapst)"],
         ["verse basilicum en/of peterselie"],
@@ -243,5 +243,30 @@ export const recipes: Recipe[] = [
       Vul en vouw de quesadillas en bak ze in de oven of pan tot de kaas gesmolten is.
     `,
     link: "https://damndelicious.net/2016/07/23/greek-quesadillas/",
+  },
+  {
+    slug: "veggilaine-ultieme-pita-recept",
+    title: "Ultieme Pita Recept",
+    creator: "Veggilaine",
+    image: "/images/ultieme-pita-recept.jpeg",
+    feeds: 3,
+    ingredients: [
+      [
+        "Voor 6 stuks",
+        [500, "g bloem"],
+        [7, "g gedroogde gist"],
+        [1, "el agave siroop of honing"],
+        [300, "ml lauwwarm water"],
+        [10, "g zout"],
+        [15, "g olijfolie"],
+        ["extra olijfolie voor bakken"],
+      ],
+    ],
+    description: `
+    Meng de gist met het water en de agave. Meng de bloem, zout en olie, giet hier het water met gist bij en kneed het geheel tot een (licht plakkerig) deeg.
+    Laat het deeg minstens een uur tot drie uur rusten in een diepe kom op kamertemperatuur afgedekt met folie of een schone theedoek. Het moet minstens in grootte zijn verdubbeld! Doe wat olijfolie op je werkblad voor je het deeg in zes gelijke stukken verdeeld.
+    Kneed elk deegbolletje met wat olijfolie tot een plat broodje. Verhit een pan op heet vuur en bak het broodje ongeveer 2-3 minuten aan beide kanten. Dek de versgebakken broodjes af met een theedoek om ze warm te houden.
+    `,
+    link: "https://www.instagram.com/p/CoRrbeSKHFC/",
   },
 ];
