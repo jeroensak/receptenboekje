@@ -297,7 +297,7 @@ export const recipes: Recipe[] = [
     15:30 - Olijfolie gelijdelijk toevoegen tijdens 12 a 14 stretch-and-folds. Beetje bollen, terug in de kom leggen, bespuiten met een beetje water, 2 uur laten rusten.
     17:30 - 5 a 6 Stretch-and-folds, bespuiten met water 2 uur laten rusten.
     19:30 - Pre-shape. Beetje bloem op het deeg strooien, beetje bloem op het werkblad strooien. Deeg sticky side up op het werkblad leggen. Eventueel wat bloem rondom het deeg strooien en eronder jassen met de deegschraper.  Deeg opdelen in twee gelijke delen voor twee broden. Een aan de kant leggen en de ander 4/5 keer vouwen, bolletje van maken en aan de kant leggen. Hetzelfde met het andere deel. Beide bollen naast elkaar leggen, beetje bloem er overheen en een doek erover. Zo een uur laten rusten.
-    20:30 - Shape. Eerste bol kantelen, zodat de plakkerige kant weer bovenaan komt en de droge kant op het werkblad ligt. Een beetje uitreken en groter maken. Niet helemaal plat slaan. Shapen naar de te wensen vorm en in het rijsmandje leggen. In de koelkast leggen en de volgende ochtend afbakken, 10 a 16 uur later. Oven voorverwarmen op 230 graden met de schaal al erin. 25 minuten met deksel, 20 minuten zonder deksel.`,
+    20:30 - Shape. Eerste bol kantelen, zodat de plakkerige kant weer bovenaan komt en de droge kant op het werkblad ligt. Een beetje uitreken en groter maken. Niet helemaal plat slaan. Shapen naar de te wensen vorm en in het rijsmandje leggen. In de koelkast leggen en de volgende ochtend afbakken, 10 a 16 uur later. Oven voorverwarmen op 230 graden met de schaal al erin. 25 tot 35 minuten met deksel, 15 tot 20 minuten zonder deksel.`,
     link: "https://www.youtube.com/watch?v=vmb0wWKITBQ",
   },
 ];
