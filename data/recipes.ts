@@ -300,4 +300,48 @@ export const recipes: Recipe[] = [
     20:30 - Shape. Eerste bol kantelen, zodat de plakkerige kant weer bovenaan komt en de droge kant op het werkblad ligt. Een beetje uitreken en groter maken. Niet helemaal plat slaan. Shapen naar de te wensen vorm en in het rijsmandje leggen. In de koelkast leggen en de volgende ochtend afbakken, 10 a 16 uur later. Oven voorverwarmen op 230 graden met de schaal al erin. 25 tot 35 minuten met deksel, 15 tot 20 minuten zonder deksel.`,
     link: "https://www.youtube.com/watch?v=vmb0wWKITBQ",
   },
+  {
+    slug: "fluffy-focaccia",
+    title: "Fluffy Focaccia",
+    creator: "Justine Snacks",
+    image: "/images/fluffy-focaccia.png",
+    feeds: 4,
+    ingredients: [
+      [
+        "Deeg",
+        [650, "g witte bloem (t55/t65)"],
+        [600, "g water"],
+        [7, "g gedroogde gist"],
+        [1, "el zout"],
+        [1, "el suiker of honing"],
+      ],
+      [
+        "Topping",
+        ["Zoutflakes (maar dan minder zout in het deeg)"],
+        ["Rozemarijn"],
+        ["Peper"],
+        ["Gehalveerde tomaatjes"],
+        ["pesto"],
+        ["Olijven"],
+        ["Gerapste kaas"],
+        ["Paprika"],
+        ["Olijfolie"],
+      ],
+    ],
+    description: `Activeer de gist in het water met de suiker of honing. Laat 5 minuten rusten tot het bubbelt.
+    Mix het water met de gist met de bloem en het zout (met een spatel of je handen) tot het goed gemengd is.
+    Verplaats het deeg naar een kom waar een laagje olijfolie in zit (ook langs de randen, in video best wel veel).
+    Laat 10 minuten rusten met een vochtige doek over de kom.
+    Stretch and fold een paar keer. Hoge hydratie dus sticky. 
+    Laat 10 minuten rusten met een vochtige doek over de kom.
+    Stretch en fold een paar keer.
+    Zet de kom in de koelkast met de doek of folie erover en laat 12 tot 18 uur rijzen.
+    Verdeel een laag olijfolie in een grote platte schaal met hoge rand want hij wordt fluffy.
+    Doe het deeg hierin en stretch tot in de hoeken (even rusten als het lastig gaat).
+    1 uur rijzen op kamertemperatuur met folie erover (1,5x zo groot).
+    Verwarm de oven voor op 220 graden (boven- en onderwarmte).
+    Maak diepe deukjes met je vingers en verdeel wat extra olijfolie en de toppings erover.
+    Bak 20-25 minuten tot goudbruin. Laat even afkoelen voor het aansnijden.`,
+    link: "https://www.youtube.com/watch?v=xNYwZwOiDQQ",
+  },
 ];
