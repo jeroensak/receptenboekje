@@ -101,7 +101,9 @@ export const recipes: Recipe[] = [
       ],
     ],
     description: `De paratha bak je in een pan op hoog vuur aan beide zijden. Geen olie nodig. Puffy paratha = succes. Verhit hierna olie in een pan en scheur de oesterzwam in hapklare stukjes. Bak de oesterzwam voor 3-4 minuten en voeg vervolgens de fijngesneden en gewassen prei toe. Bak voor 4 min en haal de pan van het vuur. Voeg nu de soja en kerrie toe en roer goed door. Serveer de paratha met doperwt-spread, de oesterzwam en top het af met de dressing en granaatappel!
+    
     Avocadospread: Kook de doperwten kort en prak deze samen met de rest van de ingrediënten tot een geheel.
+    
     Dressing: Voor het maken van de dressing gebruikte ik een keukenmachine. Geen blender? Snijd de peterselie en knoflook dan heel fijn voor het mengen.
     `,
     link: "https://www.instagram.com/reel/CeiCl_UKyMk",
@@ -133,10 +135,15 @@ export const recipes: Recipe[] = [
         ["squeeze of lemon or lime"],
       ],
     ],
-    description: `Batter the cauliflower: Preheat oven to 450f (230c) degrees. Whisk flour, milk, salt, pepper, and garlic powder. Dip cauliflower pieces in the batter and let excess drip off. Place on parchment-lined baking sheet. Bake on an upper rack for 15-20 minutes until lightly crisped and browned.
+    description: `Batter the cauliflower: Preheat oven to 450f (230c) degrees. Whisk flour, milk, salt, pepper, and garlic powder.
+    Dip cauliflower pieces in the batter and let excess drip off. Place on parchment-lined baking sheet. Bake on an upper rack for 15-20 minutes until lightly crisped and browned.
+    
     Spice the cauliflower: Gently toss the baked cauliflower in a bowl with the hot sauce. Return to pan. Bake for another 5-10 minutes.
+    
     Avocado Crema: Mix all ingredients in a food processor or blender until smooth.
+    
     Slaw: Toss the slaw with some of the avocado crema until it's nice and creamy.
+    
     Tacos: Fill each tortilla with slaw, cauliflower, a drizzle of avocado crema, and cilantro. Perfection!
     `,
     link: "https://pinchofyum.com/buffalo-cauliflower-tacos-avocado-crema",
@@ -332,7 +339,7 @@ export const recipes: Recipe[] = [
     Mix het water met de gist met de bloem en het zout (met een spatel of je handen) tot het goed gemengd is.
     Verplaats het deeg naar een kom waar een laagje olijfolie in zit (ook langs de randen, in video best wel veel).
     Laat 10 minuten rusten met een vochtige doek over de kom.
-    Stretch and fold een paar keer. Hoge hydratie dus sticky. 
+    Stretch and fold een paar keer. Hoge hydratie dus sticky.
     Laat 10 minuten rusten met een vochtige doek over de kom.
     Stretch en fold een paar keer.
     Zet de kom in de koelkast met de doek of folie erover en laat 12 tot 18 uur rijzen.

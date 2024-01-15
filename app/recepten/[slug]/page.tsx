@@ -60,9 +60,9 @@ export default async function Page({ params }: Props) {
         <IngredientsList recipe={recipe} />
         <WakeLock />
         <p>
-          {recipe.description.split(/\r?\n/).map((text, index) => (
+          {recipe.description.split(/\n/).map((text, index) => (
             <React.Fragment key={index}>
-              {text} <br />
+              {text}
               <br />
             </React.Fragment>
           ))}
