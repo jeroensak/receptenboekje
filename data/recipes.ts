@@ -259,7 +259,7 @@ export const recipes: Recipe[] = [
     feeds: 3,
     ingredients: [
       [
-        "Voor 6 stuks",
+        "Voor 8 * 100g of 9 * 90g stuks",
         [500, "g bloem"],
         [7, "g gedroogde gist"],
         [1, "el agave siroop of honing"],
@@ -272,7 +272,7 @@ export const recipes: Recipe[] = [
     description: `
     Meng de gist met het water en de agave. Meng de bloem, zout en olie, giet hier het water met gist bij en kneed het geheel tot een (licht plakkerig) deeg.
     Laat het deeg minstens een uur tot drie uur rusten in een diepe kom op kamertemperatuur afgedekt met folie of een schone theedoek. Het moet minstens in grootte zijn verdubbeld! Doe wat olijfolie op je werkblad voor je het deeg in zes gelijke stukken verdeeld.
-    Kneed elk deegbolletje met wat olijfolie tot een plat broodje. Verhit een pan op heet vuur en bak het broodje ongeveer 2-3 minuten aan beide kanten. Dek de versgebakken broodjes af met een theedoek om ze warm te houden.
+    Kneed elk deegbolletje met wat olijfolie tot een plat broodje, maar maak het broodje niet te dun (houd het een beetje fluffy). Verhit een pan op heet vuur en bak het broodje ongeveer 2-3 minuten aan beide kanten. Dek de versgebakken broodjes af met een theedoek om ze warm te houden.
     `,
     link: "https://www.instagram.com/p/CoRrbeSKHFC/",
   },
