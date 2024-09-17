@@ -409,6 +409,7 @@ export const recipes: Recipe[] = [
         [1, "tl knoflookpoeder"],
         [3, "el olijfolie"],
         [2, "el maple syrup"],
+        [1, "el maizena"],
         ["snuf zout en peper"],
       ],
       [
