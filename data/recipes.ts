@@ -351,4 +351,83 @@ export const recipes: Recipe[] = [
     Bak 20-25 minuten tot goudbruin. Laat even afkoelen voor het aansnijden.`,
     link: "https://www.youtube.com/watch?v=xNYwZwOiDQQ",
   },
+  {
+    slug: "sushi-bowl",
+    title: "Sushi Bowl",
+    creator: "Pickup Limes",
+    image: "/images/sushibowl.jpg",
+    feeds: 4,
+    ingredients: [
+      [
+        "Bowl",
+        [1, "geraspte wortel"],
+        [1, "komkommer"],
+        [2, "avocado"],
+        [2, "cup edamame"],
+        [2, "cup zoetzure rode kool"],
+        [1, "mango"],
+        [300, "g sushirijst"],
+        ["zalm"],
+      ],
+      [
+        "Dressing",
+        [1, "limoen"],
+        [2, "el zoutarme sojasaus"],
+        [2, "tl sesamolie"],
+        [2, "tl agave siroop"],
+        [1, "tl knoflookpoeder"],
+        [1, "tl uienpoeder"],
+      ],
+      [
+        "Zoetzure rode kool",
+        [1, "rode kool"],
+        ["Azijn, suiker, zout, maris doet maar wat"],
+      ],
+      ["Extra", ["sojasaus"], ["wasabimayonaise"], ["sesamzaadjes"]],
+    ],
+    description: `
+    Eerst de rode kool maken zodat deze kan marineren. Rode kool in dunne strepen snijden en inmasseren met suiker, azijn en zout. Hoeveelheden zijn naar smaak blijkbaar. Ik kan hier ook niks mee, sorry.
+    
+    Sushirijst koken volgens de verpakking.
+    In de tussentijd kun je de dressing maken.
+    Vervolgens alles hakken en mooi neerleggen in een kom. Dressing erover, extra'tjes erover en klaar.`,
+    link: "https://www.pickuplimes.com/recipe/deconstructed-sushi-bowl-with-sweet-sesame-dressing-231",
+  },
+  {
+    slug: "pita-halloumi-pompoen",
+    title: "Pita met Crispy Halloumi en Pompoen",
+    creator: "Veggilaine",
+    image: "/images/pita-halloumi-pompoen.jpg",
+    feeds: 2,
+    ingredients: [
+      [
+        "Fase 1",
+        [1, "kleine pompoen"],
+        [1, "blok halloumi"],
+        [1, "el gerookte paprikapoeder"],
+        [1, "el gedroogde oregano"],
+        [1, "tl knoflookpoeder"],
+        [3, "el olijfolie"],
+        [2, "el maple syrup"],
+        ["snuf zout en peper"],
+      ],
+      [
+        "Fase 2",
+        [150, "g rucola"],
+        [1, "el balsamico azijn"],
+        [2, "el olijfolie"],
+      ],
+      ["Om af te toppen", ["Griekse yoghurt"], ["Uienchutney"]],
+    ],
+    description: `
+    Verwarm de oven voor op 220 graden. Snijd de pompoen in blokjes of parten en doe deze in de kom. 
+    Meng hier de specerijen door. Schep de pompoen uit de kom en verdeel deze over een met bakpapier beklede bakplaat.
+    
+    Verkruimel de halloumi in dezelfde kom als de pompoen en doe er 1 el maizena en nog een beetje maple syrup bij. 
+    Meng goed door en verdeel ook dit over de bakplaat. Rooster alles voor ongeveer 15-20 minuten. Hussel hierna even 
+    goed door. Rooster nogmaals 15-20 minuten. Andere soort chutney zoals mango of vijgen werkt ook.
+    
+    Serveer de pita (veggilaine recept of supermarkt (niet supermarkt, zelf maken is echt makkelijk en heerlijk)) met de rucola, pompoen en halloumi, een lepel Griekse yoghurt en wat uienchutney. Eet smakelijk!`,
+    link: "https://www.instagram.com/p/C_72GO-IuZM/",
+  },
 ];
