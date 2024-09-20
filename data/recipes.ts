@@ -431,4 +431,36 @@ export const recipes: Recipe[] = [
     Serveer de pita (veggilaine recept of supermarkt (niet supermarkt, zelf maken is echt makkelijk en heerlijk)) met de rucola, pompoen en halloumi, een lepel Griekse yoghurt en wat uienchutney. Eet smakelijk!`,
     link: "https://www.instagram.com/p/C_72GO-IuZM/",
   },
+  {
+    slug: "veggilaine-bananenbrood",
+    title: "Miso-pecan bananenbrood",
+    creator: "Veggilaine",
+    image: "/images/miso-pecan-bananenbrood.png",
+    feeds: 1,
+    ingredients: [
+      [
+        [3, "rijpe bananen"],
+        [1, "el lichte miso"],
+        [1, "el warm water"],
+        [60, "g boter"],
+        [2, "eieren"],
+        [50, "g kokosbloesemsuiker"],
+        [110, "g havermeel"],
+        [1, "tl kaneel"],
+        [0.5, "tl nootmuskaat"],
+        [1, "tl bakpoeder"],
+        ["snuf zout"],
+        [50, "ml plantaardige melk"],
+        [100, "g pure chocolade"],
+        [50, "g pecannoten"],
+      ],
+    ],
+    description: `
+    Schep de miso in een bakje en los deze op met 1 el warm water. Smelt de boter in een pan en meng de gesmolten boter 
+    met de miso. Prak de bananen en voeg hier de eieren, suiker, melk en het miso mengsel aan toe. Voeg tot slot de droge 
+    ingrediënten toe. Schep als laatste de chocolade en pecannoten door het beslag. Bedek een bakvorm met wat bakpapier 
+    en bak het brood op 180 graden voor ongeveer 40 minuten. Je kan het brood tot wel 5 dagen in de koelkast bewaren en 
+    het ook invriezen. Het is heel lekker als je een plak even opwarmt in het broodrooster. Eet smakelijk!`,
+    link: "https://www.instagram.com/reel/CoHE9Y9qwbB/",
+  },
 ];
