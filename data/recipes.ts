@@ -446,6 +446,7 @@ export const recipes: Recipe[] = [
         [2, "eieren"],
         [50, "g kokosbloesemsuiker"],
         [110, "g havermeel"],
+        [100, "g amandelmeel"],
         [1, "tl kaneel"],
         [0.5, "tl nootmuskaat"],
         [1, "tl bakpoeder"],
