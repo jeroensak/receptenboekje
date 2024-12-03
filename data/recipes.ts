@@ -464,4 +464,79 @@ export const recipes: Recipe[] = [
     het ook invriezen. Het is heel lekker als je een plak even opwarmt in het broodrooster. Eet smakelijk!`,
     link: "https://www.instagram.com/reel/CoHE9Y9qwbB/",
   },
+  {
+    slug: "veggilaine-huettenkaesepasta",
+    title: "Hüttenkäse Pasta",
+    creator: "Veggilaine",
+    image: "/images/huttenkasepasta.JPG",
+    feeds: 2,
+    ingredients: [
+      [
+        [200, "g gedroogde lange pasta"],
+        [1, "ui gesnipperd"],
+        [1, "teen knoflook"],
+        [400, "g tomaten naar keuze"],
+        [2, "broccoli"],
+        [200, "g hüttenkäse"],
+        [75, "g semi-zongedroogde tomaten"],
+        [1, "el gedroogde oregane"],
+        [1, "el citroensap of rodewijnazijn"],
+        [150, "g tomatenpassata"],
+        ["rode pesto"],
+      ],
+      ["Toppings", ["parmezaan"], ["verse basilicum"], ["pijnboompitten"]],
+    ],
+    description: `
+    Kook de pasta, bewaar 150ml kookvocht en giet af.
+
+    Verhit olijfolie in een koekenpan en fruit de ui 3 minuten. Voeg de knoflook en tomaten toe en bak kort mee. Haal de pan van het vuur en laat even afkoelen.
+    Stoom ondertussen de broccoli beetgaar.
+
+    Meng de hüttenkäse, zongedroogde tomaten, oregano, het citroensap / azijn en de tomatenpassata in een blender. Voeg vervolgens het gebakken ui-tomaatmengsel en eventueel de rode pesto toe en mix tot een gladde saus. Breng de saus op smaak met zout en peper.
+
+    Schep de saus met de broccoli en de pasta in de pan en voeg het patawater toe. Verwarm op laag vuur en laat een paar minuten sudderen, tot de saus indikt.
+
+    Serveer de pasta met lekker veel geraspte kaas, verse basilicum en geroosterde pijnboompitten. Eet smakelijk!
+    `,
+    link: "",
+  },
+  {
+    slug: "veggilaine-tomatenorzo",
+    title: "Tomatenorzo met aubergine en halloumi",
+    creator: "Veggilaine",
+    image: "/images/tomatenorzo.JPG",
+    feeds: 2,
+    ingredients: [
+      [
+        [3, "el olijfolie"],
+        [1, "rode ui, gesnipdderd"],
+        [1, "aubergine in reepjes"],
+        [225, "g orzo"],
+        [300, "g halloumi"],
+        [15, "g verse dille, fijngesneden + garnering"],
+        [2, "tenen knoflook, fijngesneden"],
+        [150, "g cherrytomaten, gehalveerd"],
+        [1, "blik tomatenblokjes a 400g"],
+        [100, "g kalamata olijven"],
+        [1 / 2, "tl chilivlokken"],
+        [1, "tl paprikapoeder"],
+        [2, "el citroensap"],
+      ],
+      [
+        "Toppings",
+        ["pijnboompitten"],
+        "granaatappelmelasse of balsamico crema",
+      ],
+    ],
+    description: `
+      Verhit 1 eetlepel olijfolie in een koekenpan en bak de ui glazig. Voeg de aubergine en 1 eetlepel olijfolie toe en bak 6 minuten mee op middelhoog vuur. Voeg de dille en knoflook toe en bak 2 minuten mee. Voeg de cherrytomaten toe, gevolgd door de tomatenblokjes uit blik, kalamata-olijven, chilivlokken, paprikapoeder, citroensap en wat zout en peper. Laat nog minstens 10 minuten pruttelen.
+
+      Kook intussen de orzo volgens de aanwijzingen op de verpakking gaar. Voeg de gekookte orzo toe aan het auberginemengsel. Meng alles goed en laat nog een paar minuten pruttelen op laag vuur.
+
+      Verhit de overige olijfolie in een koekenpan en bak de halloumi aan beide kanten goudbruin.
+
+      Serveer de orzo met de gebakken halloumi, wat verse dille, geroosterde pijnboompitten en tot slot wat granaatappelmelasse of balsamico crema.
+    `,
+    link: "",
+  },
 ];
