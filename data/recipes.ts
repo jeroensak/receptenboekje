@@ -476,7 +476,7 @@ export const recipes: Recipe[] = [
         [1, "ui gesnipperd"],
         [1, "teen knoflook"],
         [400, "g tomaten naar keuze"],
-        [2, "broccoli"],
+        [1, "broccoli"],
         [200, "g hüttenkäse"],
         [75, "g semi-zongedroogde tomaten"],
         [1, "el gedroogde oregano"],
