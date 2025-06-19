@@ -539,4 +539,42 @@ export const recipes: Recipe[] = [
     `,
     link: "",
   },
+  {
+    slug: "pizza-deegbollen",
+    title: "Pizza deegbollen",
+    creator: "Vito Iacopelli",
+    image: "/images/pizza.JPG",
+    feeds: 2,
+    ingredients: [
+      [
+        "Poolish",
+        [300, "g lauwwarm water"],
+        [5, "g droge gist"],
+        [5, "g honing"],
+        [300, "g bloem (type 00)"],
+      ],
+      [
+        "Deeg",
+        ["Poolish"],
+        [700, "g lauwwarm water"],
+        [40, "g zout"],
+        [1250, "g bloem (type 00)"],
+        ["olijfolie"],
+      ],
+    ],
+    description: `
+        Maak eerst de poolish de avond van tevoren. Meng het water, gist, honing. Voeg daarna de bloem toe en meng het. Laat het een half uur tot uur staan en zet het in de koelkast.
+
+        Voor pizza's om 18.00 uur.
+        14.40 uur: Doe het water met de poolish in een grote kom en meng het een beetje. Voeg de helft van de bloem toe en meng het nog wat verder.
+        Voeg daarna het zout met de rest van de bloem toe en meng het tot een homogeen deeg. Het deeg is plakkerig en ruw wanneer het gemengd is.
+        14.55 uur:Dump het op een werkblad, dek af met de kom en laat het 15 minuten rusten.
+        15.10 uur: Doe wat olijfolie op je handen en stretch & fold het deeg tot een mooie gladde bol. Vet de kom in met een beetje olijfolie en leg de bol erin.
+        Laat het deeg weer 30 minuten in de kom rusten, afgedekt met een vochtige doek of folie.
+        15.45 uur: Dump het deeg op het werkblad en verdeel het in 8 tot 10 bollen van ~ 250g / 300g.
+        16.00 uur: Laat deze bollen nog 1,5 tot 2 uur afgedekt rijzen.
+        Rijstijden zijn afhankelijk van de temperatuur in de keuken.
+    `,
+    link: "https://www.youtube.com/watch?v=G-jPoROGHGE",
+  },
 ];
