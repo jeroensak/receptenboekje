@@ -1,6 +1,6 @@
 "use client";
 
-import { Disclosure, Transition } from "@headlessui/react";
+import { Disclosure, DisclosureButton, Transition } from "@headlessui/react";
 import classNames from "classnames";
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
@@ -10,10 +10,10 @@ export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
   const [feeds, setFeeds] = React.useState(recipe.feeds);
 
   return (
-    <Disclosure defaultOpen>
+    <Disclosure defaultOpen as="div">
       {({ open }) => (
         <>
-          <Disclosure.Button
+          <DisclosureButton
             className={classNames(
               "transition-all duration-200 ease-linear group inline-flex items-center py-2"
             )}
@@ -30,7 +30,7 @@ export const IngredientsList = ({ recipe }: { recipe: Recipe }) => {
               )}
               aria-hidden="true"
             />
-          </Disclosure.Button>
+          </DisclosureButton>
           <Transition
             as={React.Fragment}
             enter="transition ease-out duration-200"
