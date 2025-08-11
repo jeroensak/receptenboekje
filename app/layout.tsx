@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "motion/react";
 import React from "react";
 import { Navigation } from "../components/navigation";
 import "./global.css";

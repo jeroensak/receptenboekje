@@ -8,9 +8,9 @@ import { WakeLock } from "../../../components/wake-lock";
 import { BsLink } from "react-icons/bs";
 
 interface Props {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -28,7 +28,8 @@ const getImagePlaceholder = (path: string) => {
 };
 
 export default async function Page({ params }: Props) {
-  const recipe = recipes.find((a) => a.slug === params.slug);
+  const { slug } = await params;
+  const recipe = recipes.find((a) => a.slug === slug);
 
   if (!recipe) return <div>Reseppi nie gevonde</div>;
 
